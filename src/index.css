@@ -1,0 +1,10 @@
+body {
+  margin: 3;
+  background: linear-gradient(to left, #E96479, #569DAA);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
