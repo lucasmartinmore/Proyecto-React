@@ -1,4 +1,5 @@
 body {
+  color: black;
   margin: 3;
   background: linear-gradient(to left, #E96479, #569DAA);
   font-family: 'Courier New', Courier, monospace;
