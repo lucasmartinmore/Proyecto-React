@@ -1,15 +1,23 @@
 import './App.css';
-import ProductoPrincipal from './Components/Producto Principal/ProductoPrincipal';
-import BarraNavegacion from './Components/BarraNavegacion/BarraNavegacion';
-import ItemContenedor from './Components/ItemContenedor/ItemContenedor';
+import BarraNavegacion from './Components/navBar/navBar';
+import ItemHeader from './Components/itemHeader/itemHeader';
+import ItemListContainer from './Components/itemListContainer/itemListContainer';
+import ItemDetailContainer from './Components/itemDetailContainer/itemDetailContainer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <>
+    <BrowserRouter>
       <BarraNavegacion/>
-      <ItemContenedor greeting="FUNKO STORE"/>
-      <ProductoPrincipal/>
-    </div>
+      <ItemHeader greeting="FUNKO STORE"/>
+      <Routes>
+      <Route path='/' element={<ItemListContainer/>}/>
+      <Route path='/Categoria/:idCategoria' element={<ItemListContainer/>}/>
+      <Route path='/Item/:idItem' element={<ItemDetailContainer/>}/>
+      </Routes>
+    </BrowserRouter>
+    </>
   );
 }
 
