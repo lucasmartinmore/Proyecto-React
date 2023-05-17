@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { getUnProducto } from '../asyncMocks';
-import itemDetail from '../itemDetail/itemDetail';
+import ItemDetail from '../itemDetail/itemDetail';
 import { useParams } from 'react-router-dom';
 
 
@@ -17,7 +17,7 @@ const ItemDetailContainer = () => {
 
   return (
     <div>
-      <itemDetail {...producto} />
+      <ItemDetail {...producto} />
     </div>
   )
 }

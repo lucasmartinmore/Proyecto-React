@@ -13,8 +13,8 @@ function App() {
       <ItemHeader greeting="FUNKO STORE"/>
       <Routes>
       <Route path='/' element={<ItemListContainer/>}/>
-      <Route path='/Categoria/:idCategoria' element={<ItemListContainer/>}/>
-      <Route path='/Item/:idItem' element={<ItemDetailContainer/>}/>
+      <Route path='/categoria/:idCategoria' element={<ItemListContainer/>}/>
+      <Route path='/item/:idItem' element={<ItemDetailContainer/>}/>
       </Routes>
     </BrowserRouter>
     </>
