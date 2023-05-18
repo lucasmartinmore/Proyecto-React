@@ -5,7 +5,7 @@ const ItemDetail = ({id, nombre, precio, img, stock}) => {
     <div className='contenedorItem'>
         <h1>FUNKO POP! {nombre}</h1>
         <p>----------------------</p>
-        <h2>Precio: {precio} </h2>
+        <h2>Precio: ${precio},00 </h2>
         <h3>Producto N°: {id} </h3>
         <h4><strong>Ultimas {stock} unidades en stock !</strong></h4>
         <p>----------------------</p>
