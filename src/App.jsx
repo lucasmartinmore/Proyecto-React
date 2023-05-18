@@ -10,7 +10,7 @@ function App() {
     <>
     <BrowserRouter>
       <BarraNavegacion/>
-      <ItemHeader greeting="FUNKO STORE"/>
+      <ItemHeader greeting="FUNKO WORLD"/>
       <Routes>
       <Route path='/' element={<ItemListContainer/>}/>
       <Route path='/categoria/:idCategoria' element={<ItemListContainer/>}/>
