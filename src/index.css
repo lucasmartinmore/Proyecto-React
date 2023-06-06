@@ -1,7 +1,12 @@
 body {
   color: black;
   margin: 0.5rem;
-  background: linear-gradient(to left, #E96479, #569DAA);
+  background-image: url(https://images3.alphacoders.com/218/218487.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 

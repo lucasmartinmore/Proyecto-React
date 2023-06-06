@@ -1,0 +1,19 @@
+.miBtn {
+    background: linear-gradient(to left, black, #044366);
+    border-radius: 12px;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1rem;
+    cursor: pointer;
+
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 10px;
+}

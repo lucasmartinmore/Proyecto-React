@@ -1,4 +1,9 @@
-.ImagenCarritoDeCompra
-{
-    width: 2rem;
+.ImagenCarritoDeCompra {
+    width: 3.5rem;
+}
+
+.itemsIndicador {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
 }

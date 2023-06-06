@@ -1,6 +1,11 @@
 .titulo {
     text-align: center;
-    color: black;
-    font-size: 4rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifss;
+    color: transparent;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifss;
+    -webkit-text-stroke: 0.0000001px beige;
+    background-image: url(https://images8.alphacoders.com/100/1000726.png);
+    background-position: center;
+    background-size: cover;
+    -webkit-background-clip: text;
 }
