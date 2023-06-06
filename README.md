@@ -1,5 +1,5 @@
 # Tienda Funko World
-Este es un proyecto de ecommerce básico que se utiliza para el curso de React Inicial. La aplicación permite ver una lista de productos de muñecos "Funko POP" y realizar compras en línea. Los productos y las órdenes de compra se almacenan en Firebase.
+Este es un proyecto de ecommerce básico que se utilizo para el curso de React Inicial. La aplicación permite ver una lista de productos de muñecos "Funko POP" y realizar compras en línea. Los productos y las órdenes de compra se almacenan en Firebase.
 
 ## Tecnologías utilizadas
 - React
